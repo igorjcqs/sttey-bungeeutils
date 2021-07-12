@@ -1,0 +1,12 @@
+name: Bungee
+main: com.flyingblock.pcm.PcmMain
+version: BETA
+author: mgsbits
+commands:
+  scentrar:
+  scsair:
+  ban:
+  kick:
+  mute:
+  account:
+  report:

@@ -1,0 +1,43 @@
+length: 10000
+ping_interval: 100
+players-and-staff: true
+players:
+  frame_size: 50
+  lines:
+  - '&f&m&c&m--&6&m--&e&m--&a&m--&3&m--&b&m--&5&m--&7&m[---&7&m]&5&m--&b&m--&3&m--&a&m--&e&m--&6&m--&c&m--&f'
+  - '&f&m&c&m--&6&m--&e&m--&a&m--&3&m--&b&m--&5&m--&7&m[---&7&m]&5&m--&b&m--&3&m--&a&m--&e&m--&6&m--&c&m--&f'
+  animations:
+  - none
+  - none
+  intervals:
+  - 100
+  - 50
+  loops:
+  - 0
+  - 0
+motd:
+  frame_size: 50
+  lines:
+  - '   &c&m-&6&m-&e&m-&a&m-&3&m-&b&m-&5&m-&7&m[&f &b&lNAME&f&lMC &f: &aMinecraft
+    Network &7&m]&5&m-&b&m-&3&m-&a&m-&e&m-&6&m-&c&m-&f'
+  - '     &7Season &e1 &7já &6disponível&7, venha aproveitar'
+  animations:
+  - wrap forward
+  - none
+  intervals:
+  - 100
+  - 1
+  loops:
+  - -1
+  - 1
+version:
+  frame_size: 20
+  text: '&6Players&f: %online%&b/&f%max%'
+  animation: scroll back
+  interval: 100
+  loops: -1
+server-icon:
+  image_name: server-icon.gif
+  animation: gif
+  interval: 10
+  loops: -1
